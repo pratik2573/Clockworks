@@ -6,7 +6,7 @@ let timeobj = {
 
 function soundAlarm() {
     let amount = 3;
-    let audio = new Audio("C:/Users/Owner/Desktop/content/udemy web development course/5.clockworks/Timer_Sound_Effect.mp3");
+    let audio = new Audio("Timer_Sound_Effect.mp3");
 
     function playsound() {
         audio.pause();
